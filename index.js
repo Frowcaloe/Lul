@@ -7,5 +7,5 @@ genText.addEventListener("click", function() {
     "Joey",
   ]
   const textEl = document.querySelector(".textMessage")
-  textEl.textContent = messages[Math.floor( Math.()*messages.length )]
+  textEl.textContent = messages[Math.floor( Math.random()*messages.length )]
 })
